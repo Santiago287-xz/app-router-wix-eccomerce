@@ -26,8 +26,40 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.cat-img {
+  view-transition-name: meow-image;
+}
+
+.cat-details {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.cat-desc {
+  flex: 1;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.top-bar-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+.detailed-img {
+  width: 50vw;
+  height: auto;
 }
